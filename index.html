@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Garden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="banner">
+            <img src="assetes/logo smart garden.jpg" alt="Logo" class="logo">
+        </div>
+        <div class="menu" >
+            <nav class="nav">
+                <a href="#about" class="active">À propos</a>
+                <a href="#gallery">Galerie</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <video autoplay muted loop id="hero-video">
+            <source src="assetes/gallery/8514989-uhd_3840_2160_24fps.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+        <div class="container">
+            <h1>Smart Garden</h1>
+            <p>Le jardin connecté qui prend soin de vos plantes pour vous</p>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>À propos</h2>
+        <p>
+            “Smart Garden conçoit des systèmes de jardinage intelligents qui automatisent l’entretien de vos plantes. Notre objectif : rendre le jardinage simple, durable et accessible à tous.”
+        </p>
+         <p>
+        Nos produits combinent technologie et respect de l’environnement : capteurs intelligents, arrosage automatisé, 
+        contrôle de la luminosité et des nutriments, tout est pensé pour garantir la santé et la croissance optimale de vos plantes. 
+        Chaque jardin Smart Garden est une expérience unique, qui vous permet de reconnecter avec la nature tout en gagnant du temps. 
+    </p>
+    <p>
+        Au-delà de la technologie, notre mission est de rendre le jardinage durable et accessible à tous. 
+        Nous croyons que chaque espace, petit ou grand, peut devenir un havre de verdure grâce à nos solutions innovantes. 
+        Notre équipe passionnée accompagne chaque client, offrant conseils et assistance pour transformer votre espace en un véritable paradis vert. 
+    </p>
+    <p>
+        Choisir Smart Garden, c’est opter pour un jardinage intelligent, écoresponsable et simplifié, 
+        qui s’adapte à votre rythme de vie et aux besoins spécifiques de vos plantes. 
+        Rejoignez-nous pour découvrir une nouvelle manière de jardiner, où la technologie et la nature cohabitent harmonieusement.
+    </p>
+    </section>
+
+    <section id="gallery" class="container">
+        <h2>Galerie</h2>
+        <div class="gallery">
+            <!-- Exemple de miniatures — à remplacer -->
+            <img src="assetes/gallery/femme-plein-coup-avec-de-belles-fleurs.jpg" alt="Photo 1" class="gallery-item">
+            <img src="assetes/gallery/salle-speciale-equipee-pour-cultiver-des-plantes-dans-de-bonnes-conditions.jpg" alt="Photo 2" class="gallery-item">
+            <img src="assetes/gallery/une-femme-photorealiste-dans-un-jardin-biologique-durable-recoltant-des-produits.jpg" alt="Photo 3" class="gallery-item">
+            <img src="assetes/gallery/pexels-roger-ce-311041755-16549930.jpg" alt="Photo 4" class="gallery-item">
+            <img src="assetes/gallery/pexels-gustavo-fring-4894562.jpg" alt="Photo 4" class="gallery-item">
+            <img src="assetes/gallery/pexels-anntarazevich-5435081.jpg" alt="Photo 4" class="gallery-item">
+            <img src="assetes/gallery/femme-plein-coup-avec-de-belles-fleurs.jpg" alt="Photo 1" class="gallery-item">
+            <img src="assetes/gallery/salle-speciale-equipee-pour-cultiver-des-plantes-dans-de-bonnes-conditions.jpg" alt="Photo 2" class="gallery-item">
+            <img src="assetes/gallery/une-femme-photorealiste-dans-un-jardin-biologique-durable-recoltant-des-produits.jpg" alt="Photo 3" class="gallery-item">
+            <img src="assetes/gallery/pexels-gustavo-fring-4894562.jpg" alt="Photo 4" class="gallery-item">
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox hidden">
+        <span id="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="" alt="">
+    </div>
+
+     <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <p>Pour toute question, demande de devis ou suggestion, n’hésitez pas à nous contacter. Nous serons ravis de vous répondre rapidement !</p>
+
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <h3>Email</h3>
+                    <p><a href="mailto:contact@smartgarden.fr">contact@smartgarden.fr</a></p>
+                </div>
+                <div class="contact-card">
+                    <h3>Téléphone</h3>
+                    <p><a href="tel:+33612345678">+33 6 12 34 56 78</a></p>
+                </div>
+                <div class="contact-card">
+                    <h3>Adresse</h3>
+                    <p>12 rue du Jardin, 75000 Paris</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Réseaux sociaux</h3>
+                    <p>
+                        <a href="https://www.instagram.com/smartgarden" target="_blank">Instagram</a> |
+                        <a href="https://www.facebook.com/smartgarden" target="_blank">Facebook</a> |
+                        <a href="https://www.linkedin.com/company/smartgarden" target="_blank">LinkedIn</a>
+                    </p>
+                </div>
+            </div>
+
+            <h3>Envoyez-nous un message</h3>
+            <form class="contact-form" action="#" method="post">
+                <input type="text" name="name" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="assetes/logo smart garden.jpg" alt="Smart Garden Logo">
+            </div>
+
+            <div class="footer-links">
+                <h4>Liens utiles</h4>
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#gallery">Galerie</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Email : <a href="mailto:contact@smartgarden.fr">contact@smartgarden.fr</a></p>
+                <p>Téléphone : <a href="tel:+33612345678">+33 6 12 34 56 78</a></p>
+            </div>
+
+            <div class="footer-social">
+                <h4>Réseaux sociaux</h4>
+                <a href="https://www.instagram.com/smartgarden" target="_blank">📸 Instagram</a>
+                <a href="https://www.facebook.com/smartgarden" target="_blank">👍 Facebook</a>
+                <a href="https://www.linkedin.com/company/smartgarden" target="_blank">💼 LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 — Smart Garden. Tous droits réservés.
+        </div>
+    </footer>
+
+
+    <script>
+        const navLinks = document.querySelectorAll('.nav a');
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                // Retirer la classe active de tous les liens
+                navLinks.forEach(l => l.classList.remove('active'));
+                // Ajouter la classe active au lien cliqué
+                this.classList.add('active');
+            });
+        });
+    </script>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
